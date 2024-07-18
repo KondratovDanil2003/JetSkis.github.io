@@ -1,0 +1,99 @@
+.header {
+  width: 100%;
+}
+.top-header {
+  width: 100%;
+  margin-top: 25px;
+}
+.header-burger {
+  display: none;
+}
+.header-burger__input {
+  display: none;
+}
+.top-header__second-logo-link {
+  display: none;
+}
+.top-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.top-header__nav-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.top-header__logo-link {
+}
+.top-header__address {
+  height: 35px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../assets/img/местоположение\ 1.svg");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  padding-left: 30px;
+  background-position: left top 1px;
+}
+.top-header__img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.top-header__img-link {
+}
+.quantity-of-goods {
+  position: absolute;
+  top: 13px;
+  left: 90px;
+  border-radius: 50%;
+  background-color: #1c62cd;
+  padding: 4px 8px 4px 6.8px;
+  color: #fff;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-header {
+  width: 100%;
+  margin-top: 21px;
+}
+.bottom-header .swiper {
+  display: none;
+}
+.bottom-header .wrapper {
+  width: 100%;
+}
+.bottom-header__nav {
+  width: 100%;
+  background-color: #f0f0f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom-header__nav-link {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 15px 0 13px 0;
+  position: relative;
+}
+.active-link {
+  font-weight: 600;
+}
+.active-link::before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #1c62cd;
+}
