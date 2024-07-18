@@ -1,0 +1,117 @@
+.footer {
+  width: 100%;
+
+  background-color: #f0f0f4;
+}
+.top-footer-section {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.footer-section .wrapper {
+  align-items: flex-start;
+  gap: 100px;
+}
+.first-footer-section {
+  width: 100%;
+  max-width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 34px;
+  margin-top: 50px;
+  margin-right: 60px;
+}
+.first-footer-section__info {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.first-footer-section__btn-input {
+  display: flex;
+  align-items: center;
+}
+.first-footer-section__search-string {
+  width: 100%;
+  max-width: 200px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #fff;
+  color: #c4c4c4;
+
+  font-weight: 400;
+  font-size: 12px;
+  outline: none;
+}
+.first-footer-section__search-button {
+  width: 100%;
+  max-width: 110px;
+  border: none;
+  background-color: #1c62cd;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.12em;
+  padding: 8px 16px;
+}
+.second-footer-section {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+.second-footer-section__nmb-two {
+  display: none;
+}
+.second-footer-section__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.active-second-footer-section__link {
+  font-weight: 700;
+}
+.second-footer-section__link {
+  font-size: 14px;
+}
+.second-footer-section__bottom-link {
+  color: #48494d;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+.third-footer-section {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.third-footer-section__nmb-two {
+  display: none;
+}
+.third-footer-section__nmr-two-input {
+  display: none;
+}
+.fourth-footer-section {
+  margin-top: 90px;
+}
+.fourth-footer-section__socials-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.bottom-footer-section {
+  margin-top: 50px;
+}
+.bottom-footer-section .wrapper {
+  justify-content: flex-start;
+  gap: 120px;
+}
+.bottom-footer-section .second-footer-section__bottom-link:first-child {
+  margin-left: 480px;
+}
